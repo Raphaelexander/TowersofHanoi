@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class HanoiTest {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         int[] tower1 = {1, 2, 3};
         int[] tower2 = {0, 0, 0};
         int[] tower3 = {0, 0, 0};

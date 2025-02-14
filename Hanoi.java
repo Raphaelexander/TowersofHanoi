@@ -11,6 +11,7 @@ public class Hanoi {
         System.out.println("Three towers stand: " + Arrays.toString(tower1) + Arrays.toString(tower2) + Arrays.toString(tower3)); 
         Towers(tower1.length, tower1, tower2, tower3);// move all disks from tower1 to tower3
         System.out.println("After recursion, three towers still stand: " + Arrays.toString(tower1) + Arrays.toString(tower2) + Arrays.toString(tower3));// print the final state of the three towers
+        new MyFrame();
     } // end of main
 
     public static void Towers(int n, int[] tower1, int[] tower2, int[] tower3) {
